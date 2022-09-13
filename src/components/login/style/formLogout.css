@@ -1,0 +1,30 @@
+.form-logout{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap :5px ;
+    color:#f85555;    
+}
+.login__i
+{   
+  font-size: 35px; 
+  
+}
+.form-logout__btn{
+    width: 60px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #f85555;
+    border-radius:15px;
+    transition: transform 200ms;
+    margin-bottom: 10px;
+  }
+  .form-logout__btn:hover{
+    transform: scale(1.1);
+    transition: transform 200ms;
+  }

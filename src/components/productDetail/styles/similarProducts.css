@@ -1,0 +1,6 @@
+.container-similar-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}

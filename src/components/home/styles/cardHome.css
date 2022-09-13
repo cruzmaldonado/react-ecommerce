@@ -1,0 +1,69 @@
+.card-home{
+  
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor:pointer;
+    box-shadow: 0 0 7px #000;
+    transition:box-shadow 200ms,transform 200ms;
+}
+.card-home:hover{
+    box-shadow: 0 0 5px #000;
+    transition:box-shadow 200ms,transform 200ms;
+    transform: scale(1.07);
+}
+.card-home__img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.card-home__header {
+    padding: 20px;
+    height: 220px;
+    border-bottom: 1px solid #ccc7;
+  }
+.card-home__body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    margin-left: 7px;
+}
+.card-home__name{
+    font-size: 18px;
+    height: 36px;
+    text-align: center;
+
+}
+.card-home__values{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 150px;
+    margin-top: 15px;
+}
+.card-home__price-label{
+    color:#B3B3B3
+}
+.card-home__btn{
+    background-color: #f85555;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border:none;
+    cursor: pointer;
+    transition: transform 200ms;
+    
+}
+.card-home__btn:hover{
+    transform: scale(1.1);
+    transition: transform 200ms;
+}
+.card-home__btn i{
+    color:white;
+    font-size: 0.7rem;
+
+    
+}
